@@ -1,0 +1,24 @@
+# Site settings
+title: Deutschland
+client:
+  name: DZT
+  link: "#client-name"
+core-se-link: https://www.secretescapes.de
+description: >
+  Das Reiseland Deutschland hat viel mehr zu bieten als Fußball, Currywurst oder das Oktoberfest! Entdecken Sie Urlaub neu in all seiner Vielfalt, abseits bekannter Klischees. Wir heißen Sie herzlich willkommen!
+
+# file paths
+url:     "http://mp.secretescapes.com" # the base hostname & protocol for your site
+baseurl: "/at/2020/deutschland" # the subpath of your site, e.g. /blog/
+img:     "/at/2020/deutschland/_assets/img"
+css:     "/at/2020/deutschland/_assets/css"
+js:      "/at/2020/deutschland/_assets/js"
+
+
+# Build settings
+markdown: kramdown
+exclude: [node_modules, gulpfile.js, package.json, package-lock.json, js/script.js]
+keep_files: [_assets]
+sass:
+    sass_dir: css
+    style: compressed
